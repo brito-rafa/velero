@@ -84,7 +84,7 @@ type resolvedAction struct {
 }
 
 func (i *itemKey) String() string {
-	return fmt.Sprintf("resource=%s,namespace=%s,name=%s", i.resource, i.namespace, i.name)
+	return fmt.Sprintf("Rafa resource=%s,namespace=%s,name=%s", i.resource, i.namespace, i.name)
 }
 
 func cohabitatingResources() map[string]*cohabitatingResource {
